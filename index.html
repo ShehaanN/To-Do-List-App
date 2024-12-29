@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container">
+        <header>
+            <h1><i class="fas fa-check-circle"></i> To-Do App</h1>
+            <button id="theme-toggle" class="theme-btn"><i class="fas fa-sun"></i></button>
+        </header>
+        <main>
+            <!-- Task Input -->
+            <div class="input-section">
+                <input type="text" id="task-input" placeholder="Enter your task...">
+                <button id="add-task-btn"><i class="fas fa-plus"></i></button>
+            </div>
+            <!-- Pending Tasks -->
+            <div class="task-section">
+                <h2>Pending Tasks</h2>
+                <ul id="pending-tasks" class="sortable-list"></ul>
+            </div>
+            <!-- Completed Tasks -->
+            <div class="task-section">
+                <h2>Completed Tasks</h2>
+                <ul id="completed-tasks" class="sortable-list"></ul>
+            </div>
+        </main>
+        <footer>
+            <p>Made by Shehan</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.14.0/Sortable.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
