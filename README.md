@@ -40,10 +40,10 @@ A simple, interactive To-Do App that helps users manage their daily tasks effici
 ## Screenshots 📸
 
 ### Dark Mode:
-`assets/DarkMode.png`
+![Dark Mode Screenshot](assets/DarkMode.png)
 
 ### Light Mode:
-`assets/LightMode.png`
+![Light Mode Screenshot](assets/LightMode.png)
 
 
 
