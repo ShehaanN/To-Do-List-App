@@ -27,7 +27,7 @@ A simple, interactive To-Do App that helps users manage their daily tasks effici
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Shehan5498/To-Do-List-App.git
+   git clone https://github.com/ShehaanN/To-Do-List-App.git
 
 2. Navigate to the project folder:
    ```bash
